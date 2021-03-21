@@ -15,8 +15,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.Assert;
 import org.testng.annotations.*;
 
+import com.OrangeHRM.pageObjects.LoginPage;
 import com.OrangeHRM.utilities.ReadConfig;
 
 
@@ -97,17 +99,14 @@ public class BaseClass {
 		return (generatedString2);
 	}
 	
-//	public static void loginToTheApplication() throws InterruptedException, IOException {
-//		LoginPage lp = new LoginPage(driver);
-//		lp.setUserId(userId);
-//		logger.info("Entered UserId");
-//		lp.setUserPassword(password);
-//		logger.info("Entered Password");
-//		lp.clickLogin();
-//		logger.info("Clicked on Login Button");
-//		Thread.sleep(2000);
-//
-//	}
+	public static void loginToTheApplication() throws InterruptedException, IOException {
+		LoginPage lp = new LoginPage(driver);
+		logger.info("Providing Username and Password.....");
+		lp.getUserName(username);
+		lp.getPassword(password);
+		lp.loginBtn();
+		Thread.sleep(2000);
+	}
 	
 	
 

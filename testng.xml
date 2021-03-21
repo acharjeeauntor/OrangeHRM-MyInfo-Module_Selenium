@@ -7,10 +7,12 @@
   <test thread-count="5" name="OrangeHRM MyInfo Module Test">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.OrangeHRM.testCases.TC_MI_001"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_002"/>
+       <!--  <class name="com.OrangeHRM.testCases.TC_MI_001"/>
+    <class name="com.OrangeHRM.testCases.TC_MI_002"/>
       <class name="com.OrangeHRM.testCases.TC_MI_003"/>
       <class name="com.OrangeHRM.testCases.TC_MI_004"/>
+      <class name="com.OrangeHRM.testCases.TC_MI_005"/>--> 
+      <class name="com.OrangeHRM.testCases.TC_MI_006"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
