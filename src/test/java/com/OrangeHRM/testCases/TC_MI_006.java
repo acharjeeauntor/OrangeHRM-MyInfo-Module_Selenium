@@ -16,7 +16,6 @@ public class TC_MI_006 extends BaseClass{
 	@Test(priority=1)
 	public void editPersonalDetails() throws InterruptedException, IOException {
 		loginToTheApplication();
-		logger.info("login Success");
 		PersonalDetailsPage pd = new PersonalDetailsPage(driver);
 		pd.clickMyInfo();
 		pd.clickPD();

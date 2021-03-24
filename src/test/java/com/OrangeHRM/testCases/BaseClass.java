@@ -106,6 +106,7 @@ public class BaseClass {
 		lp.getPassword(password);
 		lp.loginBtn();
 		Thread.sleep(2000);
+		logger.info("Login Success");
 	}
 	
 	

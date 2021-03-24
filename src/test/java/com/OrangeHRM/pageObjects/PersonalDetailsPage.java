@@ -42,7 +42,29 @@ WebDriver ldriver;
 	
 	@FindBy(xpath="//select[@id='personal_cmbNation']")
 	WebElement nationality;
+	
+	@FindBy(xpath="//input[@id='personal_txtEmployeeId']")
+	WebElement employeeId;
+	
+	@FindBy(xpath="//input[@id='personal_txtLicenNo']")
+	WebElement driverlicense;
 
+	@FindBy(xpath="//input[@id='personal_txtNICNo']")
+	WebElement ssnNum;
+	
+	@FindBy(xpath="//input[@id='personal_txtSINNo']")
+	WebElement sinNum;
+	
+	@FindBy(xpath="//input[@id='personal_DOB']")
+	WebElement dateOfBirth;
+	
+	@FindBy(xpath="//img[@id='empPic']")
+	WebElement empImage;
+	
+	@FindBy(xpath="//input[@id='photofile']")
+	WebElement fileChoose;
+
+	
 	
 	public void clickMyInfo() {
 		myInfoTab.click();
@@ -96,6 +118,47 @@ WebDriver ldriver;
 		Select se = new Select(nationality);
 		se.selectByVisibleText(n);
 	}
+	
+	public void setEmpId(String id) {
+		employeeId.sendKeys(id);
+	}
+	
+	public void DriverLicenseNum(String n) {
+		driverlicense.sendKeys(n);
+	}
+	
+	
+	
+	public void SSNNum(String n) {
+		ssnNum.sendKeys(n);
+	}
+	
+	
+	public void SINNum(String n) {
+		sinNum.sendKeys(n);
+	}
+	
+	
+	public void DateOfBirth(String n) {
+		dateOfBirth.sendKeys(n);
+	}
+	
+	public void imageSelect() {
+		empImage.click();
+	}
+	
+	public void fileUpload(String path) {
+		fileChoose.sendKeys(path);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }

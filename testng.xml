@@ -11,8 +11,17 @@
     <class name="com.OrangeHRM.testCases.TC_MI_002"/>
       <class name="com.OrangeHRM.testCases.TC_MI_003"/>
       <class name="com.OrangeHRM.testCases.TC_MI_004"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_005"/>--> 
+      <class name="com.OrangeHRM.testCases.TC_MI_005"/>
       <class name="com.OrangeHRM.testCases.TC_MI_006"/>
+      <class name="com.OrangeHRM.testCases.TC_MI_007"/> 
+      <class name="com.OrangeHRM.testCases.TC_MI_008"/>
+      <class name="com.OrangeHRM.testCases.TC_MI_009"/>
+      <class name="com.OrangeHRM.testCases.TC_MI_010"/>-->
+       <class name="com.OrangeHRM.testCases.TC_MI_011"/>
+        <class name="com.OrangeHRM.testCases.TC_MI_012"/>
+         <class name="com.OrangeHRM.testCases.TC_MI_013"/>
+          <class name="com.OrangeHRM.testCases.TC_MI_014"/>
+           <class name="com.OrangeHRM.testCases.TC_MI_015"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

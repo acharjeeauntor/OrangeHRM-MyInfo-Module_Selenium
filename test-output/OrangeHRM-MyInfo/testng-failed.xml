@@ -7,13 +7,13 @@
   <test thread-count="5" name="OrangeHRM MyInfo Module Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.OrangeHRM.testCases.TC_MI_006">
+      <class name="com.OrangeHRM.testCases.TC_MI_007">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="editPersonalDetails"/>
         </methods>
-      </class> <!-- com.OrangeHRM.testCases.TC_MI_006 -->
+      </class> <!-- com.OrangeHRM.testCases.TC_MI_007 -->
     </classes>
   </test> <!-- OrangeHRM MyInfo Module Test(failed) -->
 </suite> <!-- Failed suite [OrangeHRM-MyInfo] -->
