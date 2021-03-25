@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.inetBankingDemo.testCases.TC_LoginDDT_002">
+      <class name="com.OrangeHRM.testCases.TC_MI_026">
         <methods>
-          <include name="loginDDT"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="viewJobDetails"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.inetBankingDemo.testCases.TC_LoginDDT_002 -->
+      </class> <!-- com.OrangeHRM.testCases.TC_MI_026 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

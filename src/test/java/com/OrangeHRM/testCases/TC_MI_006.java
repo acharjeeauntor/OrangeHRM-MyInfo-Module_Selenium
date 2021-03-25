@@ -24,7 +24,7 @@ public class TC_MI_006 extends BaseClass{
 		pd.firstName(fName);
 		pd.middleName(mName);
 		pd.lastName(lName);
-		//pd.licenseDate("1998", "Jun", "22");
+		pd.licenseDate("1998", "Jun", "22");
 		pd.maritalStatus("Single");
 		pd.nationality("Bangladeshi");
 		logger.info("Field Edit End");

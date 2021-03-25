@@ -95,18 +95,13 @@ WebDriver ldriver;
 	
 	public void licenseDate(String year,String month,String day) throws InterruptedException {
 		licenseExpiryDate.click();
-
-		WebElement selectYear = ldriver.findElement(By.xpath("//select[@class='ui-datepicker-year']"));
-		WebElement selectMonth = ldriver.findElement(By.xpath("//select[@class='ui-datepicker-month']"));
-		WebElement selectDay = ldriver.findElement(By.xpath("//a[normalize-space()='"+day+"']"));
-		Select yearSelect = new Select(selectYear);
-		Select monthSelect = new Select(selectMonth);
-		yearSelect.selectByValue(year);
 		Thread.sleep(2000);
-//		monthSelect.selectByVisibleText(month);
-//		Thread.sleep(2000);
-		selectDay.click();
-		
+		Select yearSelect = new Select(ldriver.findElement(By.xpath("//select[@class='ui-datepicker-year']")));
+		yearSelect.selectByValue(year);
+		Select monthSelect = new Select(ldriver.findElement(By.xpath("//select[@class='ui-datepicker-month']")));
+		monthSelect.selectByVisibleText(month);
+		ldriver.findElement(By.xpath("//a[normalize-space()='"+day+"']")).click();
+
 	}
 	
 	public void maritalStatus(String status) {

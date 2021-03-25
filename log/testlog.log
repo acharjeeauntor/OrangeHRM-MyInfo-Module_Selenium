@@ -294,3 +294,128 @@
 2021-03-24 17:20:58,395 - OrangeHRM -INFO - Providing Username and Password.....
 2021-03-24 17:21:04,001 - OrangeHRM -INFO - Login Success
 2021-03-24 17:21:10,925 - OrangeHRM -INFO - TC_MI_015 Pass
+2021-03-25 12:43:03,590 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:43:03,782 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:43:09,993 - OrangeHRM -INFO - Login Success
+2021-03-25 12:43:13,137 - OrangeHRM -INFO - TC_MI_016 Pass
+2021-03-25 12:43:23,766 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:43:23,809 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:43:29,865 - OrangeHRM -INFO - Login Success
+2021-03-25 12:43:53,486 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:43:53,490 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:44:00,105 - OrangeHRM -INFO - Login Success
+2021-03-25 12:44:22,173 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:44:22,176 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:44:27,805 - OrangeHRM -INFO - Login Success
+2021-03-25 12:44:50,534 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:44:50,536 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:44:56,122 - OrangeHRM -INFO - Login Success
+2021-03-25 12:45:05,239 - OrangeHRM -INFO - TC_MI_020 Pass
+2021-03-25 12:47:20,056 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:47:20,127 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:47:27,701 - OrangeHRM -INFO - Login Success
+2021-03-25 12:47:31,006 - OrangeHRM -INFO - TC_MI_016 Pass
+2021-03-25 12:47:39,698 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:47:39,702 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:47:44,871 - OrangeHRM -INFO - Login Success
+2021-03-25 12:48:06,712 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:48:06,714 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:48:11,678 - OrangeHRM -INFO - Login Success
+2021-03-25 12:48:27,982 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:48:27,989 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:50:59,707 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:50:59,771 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:51:05,275 - OrangeHRM -INFO - Login Success
+2021-03-25 12:51:07,787 - OrangeHRM -INFO - TC_MI_016 Pass
+2021-03-25 12:51:16,279 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:51:16,282 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:51:21,817 - OrangeHRM -INFO - Login Success
+2021-03-25 12:51:28,594 - OrangeHRM -INFO - TC_MI_017 Pass
+2021-03-25 12:51:37,145 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:51:37,148 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:51:42,847 - OrangeHRM -INFO - Login Success
+2021-03-25 12:51:47,223 - OrangeHRM -INFO - TC_MI_018 Pass
+2021-03-25 12:51:55,563 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:51:55,565 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:52:01,068 - OrangeHRM -INFO - Login Success
+2021-03-25 12:52:04,908 - OrangeHRM -INFO - TC_MI_019 Pass
+2021-03-25 12:52:13,245 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:52:13,247 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:52:18,762 - OrangeHRM -INFO - Login Success
+2021-03-25 12:52:26,273 - OrangeHRM -INFO - TC_MI_020 Pass
+2021-03-25 12:58:13,235 - OrangeHRM -INFO - URL is opened
+2021-03-25 12:58:13,379 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 12:58:18,912 - OrangeHRM -INFO - Login Success
+2021-03-25 12:58:22,382 - OrangeHRM -INFO - Field Edit Start
+2021-03-25 12:58:25,684 - OrangeHRM -INFO - Field Edit End
+2021-03-25 12:58:29,567 - OrangeHRM -INFO - Edit Validation Start....
+2021-03-25 12:58:29,618 - OrangeHRM -INFO - TC_MI_006 Pass
+2021-03-25 13:52:35,984 - OrangeHRM -INFO - URL is opened
+2021-03-25 13:52:36,122 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 13:52:41,242 - OrangeHRM -INFO - Login Success
+2021-03-25 13:52:44,737 - OrangeHRM -INFO - TC_MI_021 Pass
+2021-03-25 13:52:52,850 - OrangeHRM -INFO - URL is opened
+2021-03-25 13:52:52,853 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 13:52:58,312 - OrangeHRM -INFO - Login Success
+2021-03-25 13:53:27,513 - OrangeHRM -INFO - URL is opened
+2021-03-25 13:53:27,515 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 13:53:33,261 - OrangeHRM -INFO - Login Success
+2021-03-25 13:54:00,150 - OrangeHRM -INFO - URL is opened
+2021-03-25 13:54:00,152 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 13:54:05,616 - OrangeHRM -INFO - Login Success
+2021-03-25 13:54:27,661 - OrangeHRM -INFO - URL is opened
+2021-03-25 13:54:27,663 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 13:54:33,107 - OrangeHRM -INFO - Login Success
+2021-03-25 13:54:40,892 - OrangeHRM -INFO - TC_MI_025 Pass
+2021-03-25 14:11:49,404 - OrangeHRM -INFO - URL is opened
+2021-03-25 14:11:49,521 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 14:11:56,371 - OrangeHRM -INFO - Login Success
+2021-03-25 14:11:59,430 - OrangeHRM -INFO - TC_MI_021 Pass
+2021-03-25 14:12:08,431 - OrangeHRM -INFO - URL is opened
+2021-03-25 14:12:08,433 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 14:12:13,660 - OrangeHRM -INFO - Login Success
+2021-03-25 14:12:24,043 - OrangeHRM -INFO - TC_MI_022 Pass
+2021-03-25 14:12:34,317 - OrangeHRM -INFO - URL is opened
+2021-03-25 14:12:34,319 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 14:12:40,245 - OrangeHRM -INFO - Login Success
+2021-03-25 14:13:03,163 - OrangeHRM -INFO - URL is opened
+2021-03-25 14:13:03,165 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 14:13:08,610 - OrangeHRM -INFO - Login Success
+2021-03-25 14:13:30,980 - OrangeHRM -INFO - URL is opened
+2021-03-25 14:13:30,982 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 14:13:36,007 - OrangeHRM -INFO - Login Success
+2021-03-25 14:13:43,799 - OrangeHRM -INFO - TC_MI_025 Pass
+2021-03-25 14:18:11,777 - OrangeHRM -INFO - URL is opened
+2021-03-25 14:18:11,843 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 14:18:17,703 - OrangeHRM -INFO - Login Success
+2021-03-25 14:18:28,936 - OrangeHRM -INFO - TC_MI_023 Pass
+2021-03-25 14:18:40,380 - OrangeHRM -INFO - URL is opened
+2021-03-25 14:18:40,382 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 14:18:45,919 - OrangeHRM -INFO - Login Success
+2021-03-25 14:18:50,064 - OrangeHRM -INFO - TC_MI_24 Pass
+2021-03-25 15:58:36,364 - OrangeHRM -INFO - URL is opened
+2021-03-25 15:58:36,516 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 15:58:42,442 - OrangeHRM -INFO - Login Success
+2021-03-25 15:59:30,221 - OrangeHRM -INFO - URL is opened
+2021-03-25 15:59:30,291 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 15:59:35,596 - OrangeHRM -INFO - Login Success
+2021-03-25 16:02:48,502 - OrangeHRM -INFO - URL is opened
+2021-03-25 16:02:48,564 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 16:02:53,810 - OrangeHRM -INFO - Login Success
+2021-03-25 16:03:11,402 - OrangeHRM -INFO - TC_MI_026 Pass
+2021-03-25 16:16:25,284 - OrangeHRM -INFO - URL is opened
+2021-03-25 16:16:25,427 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 16:16:31,579 - OrangeHRM -INFO - Login Success
+2021-03-25 16:16:49,618 - OrangeHRM -INFO - TC_MI_026 Passed
+2021-03-25 16:16:59,862 - OrangeHRM -INFO - URL is opened
+2021-03-25 16:16:59,865 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 16:17:05,514 - OrangeHRM -INFO - Login Success
+2021-03-25 16:17:12,422 - OrangeHRM -INFO - TC_MI_027 Passed
+2021-03-25 16:17:22,572 - OrangeHRM -INFO - URL is opened
+2021-03-25 16:17:22,574 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 16:17:28,864 - OrangeHRM -INFO - Login Success
+2021-03-25 16:17:46,581 - OrangeHRM -INFO - TC_MI_028 Passed
+2021-03-25 16:17:55,973 - OrangeHRM -INFO - URL is opened
+2021-03-25 16:17:55,975 - OrangeHRM -INFO - Providing Username and Password.....
+2021-03-25 16:18:01,834 - OrangeHRM -INFO - Login Success
+2021-03-25 16:18:08,640 - OrangeHRM -INFO - TC_MI_029 Passed
