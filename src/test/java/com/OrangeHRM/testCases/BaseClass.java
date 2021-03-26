@@ -19,6 +19,8 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import com.OrangeHRM.pageObjects.LoginPage;
+import com.OrangeHRM.pageObjects.PersonalDetailsPage;
+import com.OrangeHRM.pageObjects.QualificationsPage;
 import com.OrangeHRM.utilities.ReadConfig;
 
 
@@ -109,6 +111,14 @@ public class BaseClass {
 		logger.info("Login Success");
 	}
 	
+	
+	public static void showQualifications() throws InterruptedException, IOException {
+		QualificationsPage qp = new QualificationsPage(driver);
+		logger.info("Go to Qualification Section....");
+		qp.clickMyInfo();
+		qp.clickQualification();
+		Thread.sleep(1000);
+	}
 	
 
 }
