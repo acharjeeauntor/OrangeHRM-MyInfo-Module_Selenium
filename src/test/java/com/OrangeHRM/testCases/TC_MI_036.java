@@ -12,6 +12,8 @@ import com.OrangeHRM.pageObjects.QualificationsPage;
 
 public class TC_MI_036 extends BaseClass {
 	public String skill="JIRA";
+	public String year = "02";
+	public String comment = "This is first skill";
 
 	@Test(priority = 1)
 	public void addSkill() throws InterruptedException, IOException {
@@ -20,9 +22,11 @@ public class TC_MI_036 extends BaseClass {
 		QualificationsPage qp = new QualificationsPage(driver);
 		qp.clickAddSkillBtn();
 		qp.setSkill(skill);
-		qp.setYear("02");
+		qp.setYear(year);
+		qp.setComment(comment);
 		qp.clickSkillSaveBtn();
-			if(driver.getPageSource().contains(skill)) {
+		Thread.sleep(2000);
+			if(driver.getPageSource().contains(comment)) {
 				Assert.assertTrue(true);
 				logger.info("TC_MI_036 Passed");
 			}else {

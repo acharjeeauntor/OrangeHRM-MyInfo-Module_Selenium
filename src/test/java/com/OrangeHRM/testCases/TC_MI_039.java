@@ -12,7 +12,7 @@ import com.OrangeHRM.pageObjects.QualificationsPage;
 
 public class TC_MI_039 extends BaseClass {
 	public String language="English";
-
+	public String comment="this is my lanuguage";
 	@Test(priority = 1)
 	public void addLanguage() throws InterruptedException, IOException {
 		loginToTheApplication();
@@ -22,8 +22,10 @@ public class TC_MI_039 extends BaseClass {
 		qp.setLanguage(language);
 		qp.setFluency("Speaking");
 		qp.setCompetency("Good");
+		qp.setLanComment(comment);
 		qp.clickLanSaveBtn();
-			if(driver.getPageSource().contains(language)) {
+		Thread.sleep(2000);
+			if(driver.getPageSource().contains(comment)) {
 				Assert.assertTrue(true);
 				logger.info("TC_MI_039 Passed");
 			}else {

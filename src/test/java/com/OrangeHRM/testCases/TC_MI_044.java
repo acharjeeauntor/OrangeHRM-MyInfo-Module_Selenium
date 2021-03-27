@@ -11,7 +11,7 @@ import com.OrangeHRM.pageObjects.QualificationsPage;
 
 
 public class TC_MI_044 extends BaseClass {
-	public String LicenseNumber="015";
+	public String LicenseNumber="0154582";
 
 	@Test(priority = 1)
 	public void deleteLicense() throws InterruptedException, IOException {
@@ -20,6 +20,7 @@ public class TC_MI_044 extends BaseClass {
 		QualificationsPage qp = new QualificationsPage(driver);
 		qp.checkLicAll();
 		qp.deleteLicBtn();
+		Thread.sleep(2000);
 			if(driver.getPageSource().contains(LicenseNumber)) {
 				logger.info("TC_MI_044 Failed");
 				captureScreen(driver,"deleteLicense");

@@ -71,6 +71,10 @@ public class QualificationsPage {
 
 	@FindBy(xpath = "//input[@id='skill_years_of_exp']")
 	WebElement year;
+	
+	@FindBy(xpath = "//textarea[@id='skill_comments']")
+	WebElement comment;
+
 
 	@FindBy(xpath = "//input[@id='btnSkillSave']")
 	WebElement skillSaveBtn;
@@ -91,6 +95,9 @@ public class QualificationsPage {
 
 	@FindBy(xpath = "//select[@id='language_lang_type']")
 	WebElement fluency;
+	
+	@FindBy(xpath = "//textarea[@id='language_comments']")
+	WebElement lanComment;
 
 	@FindBy(xpath = "//select[@id='language_competency']")
 	WebElement competency;
@@ -178,7 +185,7 @@ public class QualificationsPage {
 	// Education Part
 
 	public void setLevel(String name) {
-		Select se = new Select(skill);
+		Select se = new Select(level);
 		se.selectByVisibleText(name);
 	}
 
@@ -205,12 +212,16 @@ public class QualificationsPage {
 	// Skills Part
 
 	public void setSkill(String name) {
-		Select se = new Select(level);
+		Select se = new Select(skill);
 		se.selectByVisibleText(name);
 	}
 
 	public void setYear(String n) {
 		year.sendKeys(n);
+	}
+	
+	public void setComment(String com) {
+		comment.sendKeys(com);
 	}
 
 	public void clickSkillSaveBtn() {
@@ -246,6 +257,10 @@ public class QualificationsPage {
 		se.selectByVisibleText(name);
 	}
 
+	public void setLanComment(String com) {
+		lanComment.sendKeys(com);
+	}
+	
 	public void clickLanSaveBtn() {
 		lanSaveBtn.click();
 	}

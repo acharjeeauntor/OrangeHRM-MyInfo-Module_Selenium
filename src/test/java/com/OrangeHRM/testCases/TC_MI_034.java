@@ -19,9 +19,10 @@ public class TC_MI_034 extends BaseClass {
 		showQualifications();
 		QualificationsPage qp = new QualificationsPage(driver);
 		qp.clickAddEduBtn();
-		qp.setLevel("College Undergraduate");
+		qp.setLevel("High School Diploma");
 		qp.setInstitute(institutionName);
 		qp.clickEduSaveBtn();
+		Thread.sleep(2000);
 			if(driver.getPageSource().contains(institutionName)) {
 				Assert.assertTrue(true);
 				logger.info("TC_MI_034 Passed");

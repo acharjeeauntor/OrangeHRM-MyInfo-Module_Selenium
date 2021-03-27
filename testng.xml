@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="OrangeHRM-MyInfo">
-<listeners>
-<listener class-name="com.OrangeHRM.utilities.Reporting"/>
-</listeners>
-  <test thread-count="5" name="OrangeHRM MyInfo Module Test">
-  <parameter name="browser" value="chrome"/>
-    <classes>
-       <!--  <class name="com.OrangeHRM.testCases.TC_MI_001"/>
-    <class name="com.OrangeHRM.testCases.TC_MI_002"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_003"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_004"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_005"/>
-       <class name="com.OrangeHRM.testCases.TC_MI_006"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_007"/> 
-      <class name="com.OrangeHRM.testCases.TC_MI_008"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_009"/>
-      <class name="com.OrangeHRM.testCases.TC_MI_010"/>
-       <class name="com.OrangeHRM.testCases.TC_MI_011"/>
-        <class name="com.OrangeHRM.testCases.TC_MI_012"/>
-         <class name="com.OrangeHRM.testCases.TC_MI_013"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_014"/>
-           <class name="com.OrangeHRM.testCases.TC_MI_015"/>
-           <class name="com.OrangeHRM.testCases.TC_MI_016"/>
-        <class name="com.OrangeHRM.testCases.TC_MI_017"/>
-         <class name="com.OrangeHRM.testCases.TC_MI_018"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_019"/>
-           <class name="com.OrangeHRM.testCases.TC_MI_020"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_021"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_022"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_023"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_024"/>
-           <class name="com.OrangeHRM.testCases.TC_MI_025"/>
-           <class name="com.OrangeHRM.testCases.TC_MI_026"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_027"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_028"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_029"/>
-          <class name="com.OrangeHRM.testCases.TC_MI_030"/>-->
-         <class name="com.OrangeHRM.testCases.TC_MI_031"/>
-       <class name="com.OrangeHRM.testCases.TC_MI_032"/>
-       
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="com.OrangeHRM.utilities.Reporting" />
+	</listeners>
+	<test thread-count="5" name="OrangeHRM MyInfo Module Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!-- <class name="com.OrangeHRM.testCases.TC_MI_001"/> <class name="com.OrangeHRM.testCases.TC_MI_002"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_003"/> <class name="com.OrangeHRM.testCases.TC_MI_004"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_005"/> <class name="com.OrangeHRM.testCases.TC_MI_006"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_007"/> <class name="com.OrangeHRM.testCases.TC_MI_008"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_009"/> <class name="com.OrangeHRM.testCases.TC_MI_010"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_011"/> <class name="com.OrangeHRM.testCases.TC_MI_012"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_013"/> <class name="com.OrangeHRM.testCases.TC_MI_014"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_015"/> <class name="com.OrangeHRM.testCases.TC_MI_016"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_017"/> <class name="com.OrangeHRM.testCases.TC_MI_018"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_019"/> <class name="com.OrangeHRM.testCases.TC_MI_020"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_021"/> <class name="com.OrangeHRM.testCases.TC_MI_022"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_023"/> <class name="com.OrangeHRM.testCases.TC_MI_024"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_025"/> <class name="com.OrangeHRM.testCases.TC_MI_026"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_027"/> <class name="com.OrangeHRM.testCases.TC_MI_028"/> 
+				<class name="com.OrangeHRM.testCases.TC_MI_029"/> 
+			<class name="com.OrangeHRM.testCases.TC_MI_030" />
+			<class name="com.OrangeHRM.testCases.TC_MI_031" />
+			<class name="com.OrangeHRM.testCases.TC_MI_032" />
+			<class name="com.OrangeHRM.testCases.TC_MI_033" />
+			<class name="com.OrangeHRM.testCases.TC_MI_034" />
+			<class name="com.OrangeHRM.testCases.TC_MI_035" />
+			<class name="com.OrangeHRM.testCases.TC_MI_036" />
+			<class name="com.OrangeHRM.testCases.TC_MI_037" />
+			<class name="com.OrangeHRM.testCases.TC_MI_038" />
+			<class name="com.OrangeHRM.testCases.TC_MI_039" />
+			<class name="com.OrangeHRM.testCases.TC_MI_040" />
+			<class name="com.OrangeHRM.testCases.TC_MI_041" />
+			<class name="com.OrangeHRM.testCases.TC_MI_042" />
+			<class name="com.OrangeHRM.testCases.TC_MI_043" />
+			<class name="com.OrangeHRM.testCases.TC_MI_044" />
+			<class name="com.OrangeHRM.testCases.TC_MI_045" />
+			<class name="com.OrangeHRM.testCases.TC_MI_046" />
+			<class name="com.OrangeHRM.testCases.TC_MI_047" />-->
+			<class name="com.OrangeHRM.testCases.TC_MI_048" />
+			<class name="com.OrangeHRM.testCases.TC_MI_049" />
+			<class name="com.OrangeHRM.testCases.TC_MI_050" />
+			<class name="com.OrangeHRM.testCases.TC_MI_051" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

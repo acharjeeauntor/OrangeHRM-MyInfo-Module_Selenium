@@ -12,6 +12,7 @@ import com.OrangeHRM.pageObjects.QualificationsPage;
 
 public class TC_MI_038 extends BaseClass {
 	public String skill="Perl";
+	public String comment = "This is second skill";
 
 	@Test(priority = 1)
 	public void deleteSkill() throws InterruptedException, IOException {
@@ -20,7 +21,8 @@ public class TC_MI_038 extends BaseClass {
 		QualificationsPage qp = new QualificationsPage(driver);
 		qp.checkSkillAll();
 		qp.deleteSkillBtn();
-			if(driver.getPageSource().contains(skill)) {
+		Thread.sleep(2000);
+			if(driver.getPageSource().contains(comment)) {
 				logger.info("TC_MI_038 Failed");
 				captureScreen(driver,"deleteSkill");
 				Assert.fail();

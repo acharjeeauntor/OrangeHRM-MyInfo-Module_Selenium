@@ -20,6 +20,7 @@ public class TC_MI_035 extends BaseClass {
 		QualificationsPage qp = new QualificationsPage(driver);
 		qp.checkEduAll();
 		qp.deleteEduBtn();
+		Thread.sleep(2000);
 			if(driver.getPageSource().contains(institutionName)) {
 				logger.info("TC_MI_035 Failed");
 				captureScreen(driver,"deleteEducation");
