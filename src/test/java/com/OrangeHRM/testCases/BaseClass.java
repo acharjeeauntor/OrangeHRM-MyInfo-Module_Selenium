@@ -22,23 +22,22 @@ import com.OrangeHRM.pageObjects.LoginPage;
 import com.OrangeHRM.pageObjects.PersonalDetailsPage;
 import com.OrangeHRM.pageObjects.QualificationsPage;
 import com.OrangeHRM.utilities.ReadConfig;
+import com.OrangeHRM.utilities.XLUtils;
 
 
 public class BaseClass {
+	
 
 	static ReadConfig readConfig = new ReadConfig();
-
-	public String baseUrl = readConfig.getApplicationUrl();
-	public static String username = readConfig.getUserName();
-	public static String password = readConfig.getUserPassword();
-	
+		public static String excelPath = readConfig.getExcelPath();
 
 	public static WebDriver driver;
 	public static Logger logger;
 
 	@Parameters("browser")
 	@BeforeClass
-	public void setUp(String br) {
+	public void setUp(String br) throws IOException {
+		String baseUrl = XLUtils.getCellData(excelPath, "sheet1", 0, 1);
 		logger = Logger.getLogger("OrangeHRM");
 		PropertyConfigurator.configure("Log4j.properties");
 
@@ -102,6 +101,8 @@ public class BaseClass {
 	}
 	
 	public static void loginToTheApplication() throws InterruptedException, IOException {
+		 String username = XLUtils.getCellData(excelPath, "sheet1", 3, 0);
+		 String password = XLUtils.getCellData(excelPath, "sheet1", 3, 1);
 		LoginPage lp = new LoginPage(driver);
 		logger.info("Providing Username and Password.....");
 		lp.getUserName(username);
@@ -120,5 +121,5 @@ public class BaseClass {
 		Thread.sleep(1000);
 	}
 	
+	}
 
-}

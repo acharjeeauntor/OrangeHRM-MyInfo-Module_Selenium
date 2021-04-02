@@ -1,2 +1,2 @@
-cd D:\SQA-practice-project\Automation-Selenium\Project\inetBankingDemo
+cd D:\SQA-practice-project\Automation-Selenium\Project\OrangeHRM
 mvn clean install

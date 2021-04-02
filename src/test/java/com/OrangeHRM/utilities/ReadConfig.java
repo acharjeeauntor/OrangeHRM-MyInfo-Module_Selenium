@@ -19,21 +19,9 @@ public class ReadConfig {
 		}
 	}
 	
-	public String getApplicationUrl() {
-		String url  = pro.getProperty("baseUrl");
-		return url;
-	}
-	
-	
-	public String getUserName() {
-		
-		String uName  = pro.getProperty("username");
-		return uName;
-	}
-	
-	public String getUserPassword() {
-		String pass  = pro.getProperty("password");
-		return pass;
+	public String getExcelPath() {
+		String excelPath  = pro.getProperty("excelPath");
+		return excelPath;
 	}
 	
 	public String getChromePath() {

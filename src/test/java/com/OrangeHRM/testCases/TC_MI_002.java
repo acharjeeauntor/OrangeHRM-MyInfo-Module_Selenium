@@ -6,11 +6,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.OrangeHRM.pageObjects.LoginPage;
+import com.OrangeHRM.utilities.XLUtils;
 
 public class TC_MI_002 extends BaseClass{
 
 	@Test(priority=1)
 	public void LoginWithInValidPass() throws InterruptedException, IOException {
+		String username = XLUtils.getCellData(excelPath, "sheet1", 3, 0);
 		LoginPage lp = new LoginPage(driver);
 		logger.info("Providing Username and Password.....");
 		lp.getUserName(username);
